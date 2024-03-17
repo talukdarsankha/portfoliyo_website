@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+}
+body{
+    background-color: rgb(12, 12, 27);
+    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 25px;
+    background-color: rgb(33, 32, 32);
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+
+nav ul li a:hover{
+   
+    color: rgb(85, 85, 103);
+    font-size: 1.1rem;
+ }
+
+
+
+.left{
+    font-size: 1.1rem;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0px;
+    /* border:  2px solid red; */
+
+}
+
+.firstSection .leftSection,.firstSection .rightSection{
+    width: 35%;
+    /* border:  2px solid red; */
+    height: 300px;
+    font-size: 3rem;
+    font-weight: normal;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    /* text-align: justify; */
+    /* padding: 11px; */
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.rightSection img{
+    width: 90%;
+
+    height: 100%;
+    
+}
+
+main hr{
+    margin: 5px 30px;
+    background-color: rgb(157, 63, 157);
+    height: 2px;
+    border: none;
+}
+
+.secondSection{
+    width: 80vw;
+    margin: 30px auto;
+   min-height: 450px;
+  
+}
+
+.secondSection> h1{
+   font-size: 1.5rem;
+}
+
+.secondSection .box{
+    background-color: white;
+    height: 2px;
+    width: 80vw;
+    margin: 135px auto;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    /* margin: 20px 100px; */
+    
+
+}
+
+
+.vertical img {
+    height: 25px;
+    position: relative;
+    top: -64px;
+    left: -18px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 95px;
+    left: -9px;
+    width: 200px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 100px;
+    left: -10px;
+    color: rgb(108, 104, 104);
+    font-size: 11px;
+    width: 200px;
+}
